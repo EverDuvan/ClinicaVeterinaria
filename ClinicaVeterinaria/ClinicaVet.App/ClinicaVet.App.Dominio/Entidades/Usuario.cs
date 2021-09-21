@@ -14,6 +14,7 @@ namespace ClinicaVet.App.Dominio
         public string Celular { get; set; }
         public string Direccion { get; set; }
         public string Ciudad { get; set; }
+        public int Edad { get; set; }
 
     }
 }
