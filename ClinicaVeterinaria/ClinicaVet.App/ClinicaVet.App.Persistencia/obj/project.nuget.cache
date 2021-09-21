@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "T79BAPGh07i7gYm8p0LWYVfMNtE2Px3rDNMZvcu1PLaBExREr7aM/8+ErFsoOFXt9PKdNYX/ms00zdDJyxxQlg==",
+  "success": true,
+  "projectFilePath": "C:\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Persistencia\\ClinicaVet.App.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tryed\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tryed\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
