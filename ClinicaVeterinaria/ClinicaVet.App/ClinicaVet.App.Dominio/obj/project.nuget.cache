@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "31atcaJJaUI7WslyE3Qtidz9Mi0IqEkx/vMCwFrA4bGgBAscxgoDLUhgg7Mq51TLjQXtPSJy1eob7vJcLKEQoQ==",
+  "dgSpecHash": "CAzZNwafgVy5S3e43GA2aR6y8UpUmPH34oBhYmQcoAf0lNDbX9D36ri3Yq6R1VJIwLrjd1RUgf4H9Esp5jSdmg==",
   "success": true,
-  "projectFilePath": "C:\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj",
+  "projectFilePath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tryed\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\tryed\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Simon\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

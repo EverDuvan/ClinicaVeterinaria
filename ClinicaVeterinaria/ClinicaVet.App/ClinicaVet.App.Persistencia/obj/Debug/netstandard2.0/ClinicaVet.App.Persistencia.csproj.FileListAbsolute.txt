@@ -1,0 +1,4 @@
+D:\Leo\mintic\Ciclo 3\Desarrollo de software\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.0\ClinicaVet.App.Persistencia.csprojAssemblyReference.cache
+D:\Leo\mintic\Ciclo 3\Desarrollo de software\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.0\ClinicaVet.App.Persistencia.AssemblyInfoInputs.cache
+D:\Leo\mintic\Ciclo 3\Desarrollo de software\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.0\ClinicaVet.App.Persistencia.AssemblyInfo.cs
+D:\Leo\mintic\Ciclo 3\Desarrollo de software\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.0\ClinicaVet.App.Persistencia.csproj.CoreCompileInputs.cache
