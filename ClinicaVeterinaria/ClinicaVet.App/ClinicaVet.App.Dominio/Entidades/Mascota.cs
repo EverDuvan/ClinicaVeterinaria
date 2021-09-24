@@ -8,6 +8,7 @@ using System;
         public string Nombre { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public string Descripcion { get; set; }
+        public string raza { get; set; }
         
 
 

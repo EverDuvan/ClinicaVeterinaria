@@ -4,6 +4,78 @@
     "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Persistencia\\ClinicaVet.App.Persistencia.csproj": {}
   },
   "projects": {
+    "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj",
+        "projectName": "ClinicaVet.App.Dominio",
+        "projectPath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Persistencia\\ClinicaVet.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -24,7 +96,11 @@
         },
         "frameworks": {
           "netstandard2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj": {
+                "projectPath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

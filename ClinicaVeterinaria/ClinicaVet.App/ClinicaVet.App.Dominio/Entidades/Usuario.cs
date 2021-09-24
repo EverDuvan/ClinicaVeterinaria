@@ -8,7 +8,7 @@ namespace ClinicaVet.App.Dominio
     public class Usuario
     {
         public int Id { get; set; }
-        public string password { get; set; }
+        public string password { get; set; }//modificar a privado
         public string Nombre { get; set; }
         public string Cedula { get; set; }
         public string Apellido { get; set; }
