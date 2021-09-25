@@ -1,8 +1,12 @@
 using System;
+
 namespace ClinicaVet.App.Dominio{
+
 public class Veterinario:Usuario{
         
-        public string HorarioDia{ get; set;}
+        //Seria un atributo de la clase Turno
+        //public string HorarioDia{ get; set;}
+        public Turno Turno{ get; set;}
 
 }
 }
