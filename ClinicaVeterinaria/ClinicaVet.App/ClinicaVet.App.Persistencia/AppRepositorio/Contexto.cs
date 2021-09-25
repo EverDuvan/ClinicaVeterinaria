@@ -16,7 +16,7 @@ namespace ClinicaVet.App.Persistencia
 
          protected override void OnConfiguring(DbContextOptionsBuilder options)
          {
-            if (!options.IsConfigured) { options.UseSqlServer ("Data Source = (localdb) \\MSSQLLocalDB; Initial Catalog = ClinicaVet");
+            if (!options.IsConfigured) { options.UseSqlServer ("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = ClinicaVet");
                 }
          }
          protected override void OnModelCreating(ModelBuilder builder)

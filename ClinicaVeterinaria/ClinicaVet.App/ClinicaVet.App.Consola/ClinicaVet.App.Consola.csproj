@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClinicaVet.App.Persistencia\ClinicaVet.App.Persistencia.csproj" />
+    <ProjectReference Include="..\ClinicaVet.App.Dominio\ClinicaVet.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

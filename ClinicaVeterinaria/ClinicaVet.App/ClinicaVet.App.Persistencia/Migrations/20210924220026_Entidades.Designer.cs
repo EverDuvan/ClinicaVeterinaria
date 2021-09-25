@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClinicaVet.App.Persistencia.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210924203915_Entidades")]
+    [Migration("20210924220026_Entidades")]
     partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
