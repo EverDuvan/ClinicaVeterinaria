@@ -10,7 +10,8 @@ namespace ClinicaVet.App.Dominio
         public int Id { get; set; }
         public string password { get; set; }//modificar a privado
         public string Nombre { get; set; }
-        public string Cedula { get; set; }
+        //CEDULA debe ser un int para que funcione bien IRepositorios
+        public int Cedula { get; set; }
         public string Apellido { get; set; }
         public string Celular { get; set; }
         public string Direccion { get; set; }
