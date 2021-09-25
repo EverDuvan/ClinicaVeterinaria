@@ -3,7 +3,7 @@ using System;
 
 namespace ClinicaVet.App.Dominio
 {
-    public class HorariosDia
+    public class Turno
     {
         public DateTime horario8_00 { get;set; } 
         public DateTime horario8_30 { get;set; } 

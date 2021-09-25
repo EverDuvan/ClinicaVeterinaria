@@ -2,7 +2,9 @@
 using System;
  namespace ClinicaVet.App.Dominio{
 
-public class HistoriaClinica:Consulta { 
+
+// elimine la herencia de historias clinicas. Este no hereda solo tiene el atributo, ya que tendria muchas cunsultas en una sola historia clinica
+public class HistoriaClinica { 
     
     public Mascota Mascota { get; set; }
     // el atributo seria de tipo consulta, para almacenar en Historia clinica cada consulta emitida
