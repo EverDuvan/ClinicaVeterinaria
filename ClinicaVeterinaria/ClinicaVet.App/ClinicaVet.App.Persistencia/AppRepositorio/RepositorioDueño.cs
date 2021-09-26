@@ -2,17 +2,14 @@ using System.Collections.Generic;
 using System.Linq;
 using ClinicaVet.App.Dominio;
 
-
 namespace ClinicaVet.App.Persistencia
 {
     public class RepositorioDueño : IRepositorioDueño
     {
-        private readonly Contexto _contexto;
-        
+        private readonly Contexto _contexto;        
         public RepositorioDueño(Contexto contexto){
             this._contexto = contexto;
         }
-
         public Dueño AddDueños(Dueño dueño)
         {
             Dueño nuevoDueño =_contexto.Add(dueño).Entity;

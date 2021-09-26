@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ClinicaVet.App.Frontend.Pages
 {
-    public class ClienteModel : PageModel
+    public class ListaVeterinariosModel : PageModel
     {
         public void OnGet()
         {

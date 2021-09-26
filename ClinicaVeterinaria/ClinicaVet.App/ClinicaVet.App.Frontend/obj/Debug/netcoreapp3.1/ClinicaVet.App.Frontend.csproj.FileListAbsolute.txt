@@ -20,7 +20,6 @@
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/ClinicaVet.App.Frontend.RazorCoreGenerate.cache
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Cliente.cshtml.g.cs
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
@@ -35,3 +34,6 @@
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/ClinicaVet.App.Frontend.pdb
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/ClinicaVet.App.Frontend.genruntimeconfig.cache
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/ClinicaVet.App.Frontend.csproj.CopyComplete
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Clientes/ListaClientes.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Auxiliares/ListaAuxiliares.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Veterinarios/ListaVeterinarios.cshtml.g.cs

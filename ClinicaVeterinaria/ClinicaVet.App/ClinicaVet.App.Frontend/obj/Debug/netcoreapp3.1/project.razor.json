@@ -14402,6 +14402,11 @@
   "RootNamespace": "ClinicaVet.App.Frontend",
   "Documents": [
     {
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Clientes/ListaClientes.cshtml",
+      "TargetPath": "Pages\\Menu\\Clientes\\ListaClientes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14422,8 +14427,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Cliente.cshtml",
-      "TargetPath": "Pages\\Menu\\Cliente.cshtml",
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Veterinarios/ListaVeterinarios.cshtml",
+      "TargetPath": "Pages\\Menu\\Veterinarios\\ListaVeterinarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Auxiliares/ListaAuxiliares.cshtml",
+      "TargetPath": "Pages\\Menu\\Auxiliares\\ListaAuxiliares.cshtml",
       "FileKind": "mvc"
     },
     {
