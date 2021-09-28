@@ -31,6 +31,7 @@ namespace ClinicaVet.App.Persistencia
              builder.Entity<Usuario>()
              .HasIndex(u => u.Cedula)
              .IsUnique();
+             
          }
     }
     

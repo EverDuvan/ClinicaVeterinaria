@@ -5,6 +5,7 @@ namespace ClinicaVet.App.Dominio
 {
     public class Turno
     {
+        public int Id{get;set; }
         public DateTime horario8_00 { get;set; } 
         public DateTime horario8_30 { get;set; } 
         public DateTime horario9_00 { get;set; } 

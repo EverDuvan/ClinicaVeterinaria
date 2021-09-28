@@ -5840,19 +5840,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Simon\\.nuget\\packages\\": {}
+    "C:\\Users\\agos1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Consola\\ClinicaVet.App.Consola.csproj",
+      "projectUniqueName": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Consola\\ClinicaVet.App.Consola.csproj",
       "projectName": "ClinicaVet.App.Consola",
-      "projectPath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Consola\\ClinicaVet.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-      "outputPath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Consola\\obj\\",
+      "projectPath": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Consola\\ClinicaVet.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\agos1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\agos1\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5863,11 +5863,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj": {
-              "projectPath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj"
+            "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj"
             },
-            "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Persistencia\\ClinicaVet.App.Persistencia.csproj": {
-              "projectPath": "D:\\Leo\\mintic\\Ciclo 3\\Desarrollo de software\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Persistencia\\ClinicaVet.App.Persistencia.csproj"
+            "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Persistencia\\ClinicaVet.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Persistencia\\ClinicaVet.App.Persistencia.csproj"
             }
           }
         }
