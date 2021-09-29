@@ -8,16 +8,16 @@ namespace ClinicaVet.App.Persistencia
     public class Contexto: DbContext
     {
         public DbSet <Usuario> Usuarios { get; set; }
-        public DbSet<Veterinario> Veterinarios{get; set; }
+        public DbSet<Veterinario> Veterinarios {get; set; }
         public DbSet<Auxiliar> Auxiliares { get; set; }
-        public DbSet<Consulta> Consultas { get; set; }
-        public DbSet<HistoriaClinica> HistoriaClinicas { get; set; }
-        public DbSet<Medicamentos> Medicamentos { get; set; }
-        
-        
-        //Adiciono DbSets de todas las clases 
-        public DbSet<Mascota> Mascotas { get; set; }
         public DbSet<Dueño> Dueños { get; set; }
+        public DbSet<Agenda> Agendas { get; set; }
+        public DbSet<Mascota> Mascotas { get; set; }
+        public DbSet<Consulta> Consultas { get; set; }
+        public DbSet<receta> Recetas { get; set; }
+        public DbSet<HistoriaClinica> HistoriaClinicas { get; set; }
+        
+
         public DbSet<Turno> Turnos { get; set; }
 
 
