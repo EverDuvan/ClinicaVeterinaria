@@ -16,3 +16,12 @@ D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinar
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.deps.json
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.dll
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.pdb
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.deps.json
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csprojAssemblyReference.cache
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfo.cs
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
