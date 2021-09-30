@@ -4,11 +4,11 @@ using System;
     public class Mascota
     {
         public int Id { get; set; }       
-        public Dueño Dueño { get; set; }
-        public string Nombre { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public string Descripcion { get; set; }
-        public TipoMascota TipoMascota { get; set; }
+        public Dueño dueño { get; set; }
+        public string nombre { get; set; }
+        public DateTime fechaNacimiento { get; set; }
+        public string descripcion { get; set; }
+        public TipoMascota tipoMascota { get; set; }
 
     } 
 }

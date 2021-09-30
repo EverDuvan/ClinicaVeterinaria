@@ -10,6 +10,8 @@ namespace ClinicaVet.App.Persistencia
 
         public RepositorioDueño(Contexto contexto){
             this._contexto = contexto;
+
+
         }
         public Dueño AddDueños(Dueño dueño)
         {
