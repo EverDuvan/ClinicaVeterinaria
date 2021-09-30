@@ -6,7 +6,8 @@ namespace ClinicaVet.App.Persistencia
 {
     public class RepositorioDueño : IRepositorioDueño
     {
-        private readonly Contexto _contexto;        
+        private readonly Contexto _contexto;  
+
         public RepositorioDueño(Contexto contexto){
             this._contexto = contexto;
         }

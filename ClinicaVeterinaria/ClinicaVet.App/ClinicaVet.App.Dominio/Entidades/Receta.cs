@@ -2,7 +2,7 @@ using System;
 
 namespace ClinicaVet.App.Dominio
 {
-    public class receta
+    public class Receta
     {
         public int Id{ get; set; }
         public Medicamentos medicamentos { get;set; } 

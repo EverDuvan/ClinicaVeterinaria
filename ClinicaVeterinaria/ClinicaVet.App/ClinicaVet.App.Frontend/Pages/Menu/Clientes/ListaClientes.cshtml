@@ -17,4 +17,22 @@
     <th scope="col">Ciudad</th>
     <th scope="col">Mascotas</th>
 </tr>
+@foreach(var dueño in Model.dueños){
+    <tr>
+        <td>@dueño.Nombr</td>
+        <td>@paciente.nombre</td>
+        <td>@paciente.genero</td>
+        <td>@paciente.edad</td>
+        <td>@paciente.direccion</td>
+        <td>@paciente.longitud</td>
+        <td>@paciente.latitud</td>
+        <td>@paciente.familiar.nombre</td>
+        <td>@paciente.medico.nombre</td>
+        <td>@paciente.enfermera.nombre</td>
+        <td><a class="btn btn-primary table-btn" asp-page="./Detailpaciente" asp-route-cedula="@paciente.cedula">Detalles</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./Editpaciente" asp-route-cedula="@paciente.cedula">Editar</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./Removepaciente" asp-route-cedula="@paciente.cedula">Eliminar</a>
+        <br>
+    </tr>
+}
 </table>

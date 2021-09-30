@@ -9,8 +9,14 @@ namespace ClinicaVet.App.Frontend.Pages
 {
     public class ListaClientesModel : PageModel
     {
+        private readonly IRepositorioDueño repositorioDueño;
+        public IEnumerable<Dueño> dueños { get; set; }
+        public ListaClientesModel(IRepositorioDueño rep){
+            this.repositorioDueño = rep;
+        }
         public void OnGet()
         {
+            dueños = repositorioDueño.GetAllDueños();
         }
     }
 }

@@ -7243,23 +7243,24 @@
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
+      "System.ComponentModel.Annotations >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\agos1\\.nuget\\packages\\": {}
+    "/Users/Nicolas/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj",
+      "projectUniqueName": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/ClinicaVet.App.Dominio.csproj",
       "projectName": "ClinicaVet.App.Dominio",
-      "projectPath": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\ClinicaVet.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\agos1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\agos1\\OneDrive\\Escritorio\\Mision tic 2022\\FP\\ciclo 3\\Trabajo final\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Dominio\\obj\\",
+      "projectPath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/ClinicaVet.App.Dominio.csproj",
+      "packagesPath": "/Users/Nicolas/.nuget/packages/",
+      "outputPath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\agos1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/Nicolas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7300,6 +7301,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "System.ComponentModel.Annotations": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           }
         },
         "imports": [
@@ -7317,7 +7322,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
       }
     }
   }
