@@ -14,11 +14,8 @@ namespace ClinicaVet.App.Persistencia
         public DbSet<Agenda> Agendas { get; set; }
         public DbSet<Mascota> Mascotas { get; set; }
         public DbSet<Consulta> Consultas { get; set; }
-        public DbSet<receta> Recetas { get; set; }
+        public DbSet<Receta> Recetas { get; set; }
         public DbSet<HistoriaClinica> HistoriaClinicas { get; set; }
-        
-
-        public DbSet<Turno> Turnos { get; set; }
 
 
          protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -29,7 +26,7 @@ namespace ClinicaVet.App.Persistencia
          protected override void OnModelCreating(ModelBuilder builder)
          {
              builder.Entity<Usuario>()
-             .HasIndex(u => u.Cedula)
+             .HasIndex(u => u.cedula)
              .IsUnique();
              
          }

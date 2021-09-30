@@ -4,33 +4,31 @@
 }
 <h1>Gestionar Dueños</h1>
 <p>Está pagina esta diseñada para gestionar nuevos Clientes</p>
-<a class="btn btn-primary table-btn" asp-page="">Agregar Cliente</a>
+<a class="btn btn-primary table-btn" asp-page="./AdicionCliente">Agregar Cliente</a>
 <table class="table table-dark">
 <tr>
     <th scope="col">Id</th>
     <th scope="col">Nombre</th>
     <th scope="col">Apellido</th>
     <th scope="col">Cedula</th>
+    <th scope="col">Celular</th>
     <th scope="col">Dirección</th>
     <th scope="col">Ciudad</th>
-    <th scope="col">Mascotas</th>
 </tr>
 @foreach(var dueño in Model.dueños){
     <tr>
-        <td>@dueños.Id</td>
-        <td>@dueños.nombre</td>
-        <td>@dueños.apellido</td>
-        <td>@dueños.cedula</td>
-        <td>@dueños.direccion</td>
-        <td>@dueños.Ciudad</td>
-        <td>@paciente.longitud</td>
-        <td>@paciente.latitud</td>
-        <td>@paciente.familiar.nombre</td>
-        <td>@paciente.medico.nombre</td>
-        <td>@paciente.enfermera.nombre</td>
-        <td><a class="btn btn-primary table-btn" asp-page="./Detailpaciente" asp-route-cedula="@paciente.cedula">Detalles</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./Editpaciente" asp-route-cedula="@paciente.cedula">Editar</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./Removepaciente" asp-route-cedula="@paciente.cedula">Eliminar</a>
+        <td>@dueño.Id</td>
+        <td>@dueño.nombre</td>
+        <td>@dueño.apellido</td>
+        <td>@dueño.cedula</td>
+        <td>@dueño.celular</td>
+        <td>@dueño.direccion</td>
+        <td>@dueño.ciudad</td>
+        <td>@dueño.email</td>
+        
+        <td><a class="btn btn-primary table-btn" asp-page="./DetalleCliente" asp-route-cedula="@dueño.cedula">Detalle</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./EditarCLiente" asp-route-cedula="@dueño.cedula">Editar</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./EliminarCliente" asp-route-cedula="@dueño.cedula">Eliminar</a>
         <br>
     </tr>
 }

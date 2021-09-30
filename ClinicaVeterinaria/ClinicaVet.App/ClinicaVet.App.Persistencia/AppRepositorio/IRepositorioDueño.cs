@@ -7,7 +7,7 @@ namespace ClinicaVet.App.Persistencia
     {
         IEnumerable<Dueño> GetAllDueños();
         Dueño AddDueños(Dueño dueño);
-        Dueño UpdateDueños(Dueño dueño);
+        Dueño EditDueños(Dueño dueño);
         void DeleteDueños(int cedula);
         Dueño GetDueños(int cedula);
     }
