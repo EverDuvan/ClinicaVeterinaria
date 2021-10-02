@@ -14407,6 +14407,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Consultas/EliminarConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\EliminarConsultas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Consultas/ListaConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\ListaConsultas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14424,6 +14434,11 @@
     {
       "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Consultas/AdicionConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\AdicionConsultas.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14454,6 +14469,16 @@
     {
       "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Clientes/EliminarCliente.cshtml",
       "TargetPath": "Pages\\Menu\\Clientes\\EliminarCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Consultas/DetalleConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\DetalleConsultas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/Pages/Menu/Consultas/EditarConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\EditarConsultas.cshtml",
       "FileKind": "mvc"
     },
     {
