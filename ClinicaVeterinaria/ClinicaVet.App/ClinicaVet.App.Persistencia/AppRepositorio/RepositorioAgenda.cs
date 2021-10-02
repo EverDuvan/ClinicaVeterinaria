@@ -45,6 +45,7 @@ namespace ClinicaVet.App.Persistencia
             return _contexto.Agendas.FirstOrDefault(a => a.Id == id);
             //Agenda agenda =_contexto.Agendas.FirstOrDefault(p=>p.cedula == cedula);
             //return agenda;
+            //
         }
 
         public void removeAgenda(int id)
