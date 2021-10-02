@@ -1,0 +1,15 @@
+@page
+@model ClinicaVet.App.Frontend.Pages.DetalleVeterinarioModel
+@using ClinicaVet.App.Dominio
+@{
+}
+<h1>Detalle del veterinario @Model.veterinario.nombre</h1>
+<ul>
+    <li>Cedula: @Model.veterinario.cedula</li>
+    <li>Nombre: @Model.veterinario.nombre</li>
+    <li>Apellido: @Model.veterinario.apellido</li>
+    <li>Celular: @Model.veterinario.celular</li>
+    <li>Dirección: @Model.veterinario.direccion</li>
+    <li>Ciudad: @Model.veterinario.ciudad</li>
+    <li>Correl Electronico: @Model.veterinario.email</li>
+</ul>

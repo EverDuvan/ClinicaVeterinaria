@@ -25,3 +25,12 @@ C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\Clin
 C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
 C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.deps.json
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csprojAssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfo.cs
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
