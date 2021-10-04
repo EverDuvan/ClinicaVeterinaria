@@ -24,25 +24,7 @@ namespace ClinicaVet.App.Frontend.Pages
         {
             consulta = new Consulta();
         }
-        public IActionResult OnPost(Consulta consulta)
-        {
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    repositorioConsulta.AddConsulta(consulta);
-                    return RedirectToPage("./ListaConsultas");
-                }
-                catch
-                {
-                    return RedirectToPage("../Error");
-                }
-            }
-            else
-            {
-                return Page();
-            }
-        }
+
 
     }
 }
