@@ -11,7 +11,7 @@ namespace ClinicaVet.App.Persistencia
         Agenda editAgenda (Agenda agenda);
         Agenda getAgendaById (int id);
         void removeAgenda (int id);
-        //IEnumerable<Agenda> agendaPorVeterinario(DateTime fecha_inicio, DateTime fecha_final, Veterinario veterinario);
+        //IEnumerable<Agenda> agendaPorVeterinario(DateTime fecha_inicio, DateTime fecha_final, Veterinario veterinario);;
         //
     }
 }
