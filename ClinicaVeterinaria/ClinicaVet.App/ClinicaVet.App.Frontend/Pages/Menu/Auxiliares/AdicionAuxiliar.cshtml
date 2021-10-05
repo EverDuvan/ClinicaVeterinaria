@@ -1,0 +1,49 @@
+﻿@page
+@model ClinicaVet.App.Frontend.Pages.Menu.AdicionAuxiliaresModel
+@using ClinicaVet.App.Dominio
+@{
+}
+<h1>Agregar Auxiliar</h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="auxiliar.Id"/>
+    <div class="form-group row">
+        <label asp-for="auxiliar.cedula" class="col-sm-2">Cedula</label>
+        <input asp-for="auxiliar.cedula" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="auxiliar.nombre" class="col-sm-2">Nombre</label>
+        <input asp-for="auxiliar.nombre" class="form-control" value="">
+    </div>
+    <div class="form-group row">
+        <label asp-for="auxiliar.apellido" class="col-sm-2">Apellido</label>
+        <input asp-for="auxiliar.apellido" class="form-control" value="">
+    </div>      
+    <div class="form-group row">
+        <label asp-for="auxiliar.celular" class="col-sm-2">Edad</label>
+        <input asp-for="auxiliar.celular" class="form-control" value="">
+    </div>   
+    <div class="form-group row">
+        <label asp-for="auxiliar.direccion" class="col-sm-2">Direccion</label>
+        <input asp-for="auxiliar.direccion" class="form-control" value="">
+    </div>  
+    <div class="form-group row">
+        <label asp-for="auxiliar.ciudad" class="col-sm-2">Ciudad</label>
+        <input asp-for="auxiliar.ciudad" class="form-control" value="">
+    </div>  
+    <div class="form-group row">
+        <label asp-for="auxiliar.username" class="col-sm-2">Nombre de usuario</label>
+        <input asp-for="auxiliar.username" class="form-control" value="">
+    </div>  
+    <div class="form-group row">
+        <label asp-for="auxiliar.email" class="col-sm-2">Correo electrónico</label>
+        <input asp-for="auxiliar.email" class="form-control" value="">
+    </div>  
+    <div class="form-group row">
+        <label asp-for="auxiliar.password" class="col-sm-2">Contraseña</label>
+        <input asp-for="auxiliar.password" class="form-control" value="">
+    </div>  
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-page="./ListaAuxiliares" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

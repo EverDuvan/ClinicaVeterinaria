@@ -34,3 +34,12 @@ C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\o
 C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
 C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
 C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.deps.json
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csprojAssemblyReference.cache
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfo.cs
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
