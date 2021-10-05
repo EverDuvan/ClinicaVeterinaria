@@ -14447,6 +14447,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Consultas\\AdicionConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\AdicionConsultas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Consultas\\DetalleConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\DetalleConsultas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Auxiliares\\AdicionAuxiliar.cshtml",
       "TargetPath": "Pages\\Menu\\Auxiliares\\AdicionAuxiliar.cshtml",
       "FileKind": "mvc"
@@ -14459,6 +14469,11 @@
     {
       "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Veterinarios\\ListaVeterinarios.cshtml",
       "TargetPath": "Pages\\Menu\\Veterinarios\\ListaVeterinarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Consultas\\EliminarConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\EliminarConsultas.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14482,6 +14497,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Consultas\\ListaConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\ListaConsultas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Auxiliares\\EliminarAuxiliar.cshtml",
       "TargetPath": "Pages\\Menu\\Auxiliares\\EliminarAuxiliar.cshtml",
       "FileKind": "mvc"
@@ -14494,6 +14514,11 @@
     {
       "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LENOVO\\ClinicaVeterinaria\\ClinicaVeterinaria\\ClinicaVet.App\\ClinicaVet.App.Frontend\\Pages\\Menu\\Consultas\\EditarConsultas.cshtml",
+      "TargetPath": "Pages\\Menu\\Consultas\\EditarConsultas.cshtml",
       "FileKind": "mvc"
     },
     {

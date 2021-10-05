@@ -27,7 +27,11 @@ namespace ClinicaVet.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioDueño>(new RepositorioDueño(new Contexto()));
+<<<<<<< HEAD
             services.AddSingleton<IRepositorioAuxiliar>(new RepositorioAuxiliar(new Contexto()));
+=======
+            services.AddSingleton<IRepositorioConsulta>(new RepositorioConsulta(new Contexto()));
+>>>>>>> 3fb582dd48bc3e7670d1c5171fca1def478aba7f
             services.AddSingleton<IRepositorioVeterinario>(new RepositorioVeterinario(new Contexto()));
         }
 

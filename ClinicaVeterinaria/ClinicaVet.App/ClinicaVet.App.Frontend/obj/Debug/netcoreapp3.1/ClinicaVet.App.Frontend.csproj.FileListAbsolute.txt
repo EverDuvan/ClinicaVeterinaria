@@ -85,6 +85,7 @@
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Clientes/DetalleCliente.cshtml.g.cs
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Clientes/EditarCliente.cshtml.g.cs
 /Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Clientes/EliminarCliente.cshtml.g.cs
+<<<<<<< HEAD
 C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -183,3 +184,14 @@ C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.
 C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Menu\Auxiliares\EliminarAuxiliar.cshtml.g.cs
 C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Frontend\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+=======
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Consultas/ListaConsultas.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Consultas/AdicionConsultas.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Consultas/DetalleConsultas.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Consultas/EditarConsultas.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Consultas/EliminarConsultas.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Veterinarios/AdicionVeterinario.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Veterinarios/DetalleVeterinario.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Veterinarios/EditarVeterinario.cshtml.g.cs
+/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Menu/Veterinarios/EliminarVeterinario.cshtml.g.cs
+>>>>>>> 3fb582dd48bc3e7670d1c5171fca1def478aba7f
