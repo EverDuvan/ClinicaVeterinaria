@@ -27,6 +27,8 @@ namespace ClinicaVet.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioDueño>(new RepositorioDueño(new Contexto()));
+            services.AddSingleton<IRepositorioConsulta>(new RepositorioConsulta(new Contexto()));
+            services.AddSingleton<IRepositorioVeterinario>(new RepositorioVeterinario(new Contexto()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

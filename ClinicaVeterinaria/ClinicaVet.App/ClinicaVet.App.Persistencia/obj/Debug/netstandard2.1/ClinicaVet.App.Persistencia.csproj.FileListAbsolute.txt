@@ -34,3 +34,15 @@ C:/Users/agos1/OneDrive/Escritorio/Mision tic 2022/FP/ciclo 3/Trabajo final/Clin
 C:/Users/agos1/OneDrive/Escritorio/Mision tic 2022/FP/ciclo 3/Trabajo final/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Persistencia/obj/Debug/netstandard2.1/ClinicaVet.App.Persistencia.csproj.CopyComplete
 C:/Users/agos1/OneDrive/Escritorio/Mision tic 2022/FP/ciclo 3/Trabajo final/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Persistencia/obj/Debug/netstandard2.1/ClinicaVet.App.Persistencia.dll
 C:/Users/agos1/OneDrive/Escritorio/Mision tic 2022/FP/ciclo 3/Trabajo final/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Persistencia/obj/Debug/netstandard2.1/ClinicaVet.App.Persistencia.pdb
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\bin\Debug\netstandard2.1\ClinicaVet.App.Persistencia.deps.json
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\bin\Debug\netstandard2.1\ClinicaVet.App.Persistencia.dll
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\bin\Debug\netstandard2.1\ClinicaVet.App.Persistencia.pdb
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.1\ClinicaVet.App.Persistencia.csprojAssemblyReference.cache
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.1\ClinicaVet.App.Persistencia.AssemblyInfoInputs.cache
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.1\ClinicaVet.App.Persistencia.AssemblyInfo.cs
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.1\ClinicaVet.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.1\ClinicaVet.App.Persistencia.csproj.CopyComplete
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.1\ClinicaVet.App.Persistencia.dll
+C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Persistencia\obj\Debug\netstandard2.1\ClinicaVet.App.Persistencia.pdb
