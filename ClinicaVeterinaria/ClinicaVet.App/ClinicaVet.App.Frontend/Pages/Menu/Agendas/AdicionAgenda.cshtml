@@ -1,0 +1,49 @@
+﻿@page
+@model ClinicaVet.App.Frontend.Pages.AddAgendaModel
+@using ClinicaVet.App.Dominio
+@{
+}
+<h1>Crear Agenda </h1>
+<p>En esta pagina podras realizar la agenda</p>
+<span class="text-danger">@Model.mensaje</span>
+
+<form method="post" class="mt-3">
+    <div>
+        <label asp-for="cedulaDueño" class="form-control">Dueño</label>
+        <select class="form-control"asp-for="cedulaDueño" asp-items="@Model.dueños"></select>
+    </div>
+
+    <div>
+        <label asp-for="cedulaVeterinario" class="form-control">Veterinario</label>
+        <select class="form-control"asp-for="cedulaVeterinario" asp-items="@Model.veterinarios"></select>
+    </div>
+    <div class="form-group row">
+        <label asp-for="agenda.dia"class="col-sm-2">Dia</label>
+        <input asp-for="agenda.dia" class="form-control">
+        <span asp-validation-for="agenda.dia" class="text-danger"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="agenda.hora"class="col-sm-2">Hora</label>
+        <input asp-for="agenda.hora" class="form-control">
+        <span asp-validation-for="agenda.hora" class="text-danger"></span>
+        <span asp-validation-for="mensaje"class="text-danger"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="agenda.sala">Sala</label>
+        <div class="col-sm-10"> 
+        <select asp-for="agenda.sala" asp-items="Html.GetEnumSelectList<Sala>()"></select>
+             <span asp-validation-for="agenda.dia" class="text-danger"></span>
+        </div>     
+    </div>
+    <div class="form-group row">
+        <label asp-for="agenda.descripcion">Descripción</label>
+
+        <textarea asp-for="agenda.descripcion" class="form-control"> </textarea>
+    </div>
+   
+   
+  
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-page="./ListaAgenda" class="btn btn-primary">Cancelar</a>  
+    
+</form>

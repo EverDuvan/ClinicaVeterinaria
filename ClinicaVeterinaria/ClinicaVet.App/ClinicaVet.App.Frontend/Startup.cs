@@ -31,6 +31,7 @@ namespace ClinicaVet.App.Frontend
             services.AddSingleton<IRepositorioAuxiliar>(new RepositorioAuxiliar(_contexto));
             services.AddSingleton<IRepositorioConsulta>(new RepositorioConsulta(_contexto));
             services.AddSingleton<IRepositorioVeterinario>(new RepositorioVeterinario(_contexto));
+            services.AddSingleton<IRepositorioAgenda>(new RepositorioAgenda(_contexto));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

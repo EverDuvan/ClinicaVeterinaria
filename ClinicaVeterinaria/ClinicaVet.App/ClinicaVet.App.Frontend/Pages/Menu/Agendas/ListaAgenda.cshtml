@@ -1,0 +1,34 @@
+﻿@page
+@using ClinicaVet.App.Dominio
+@using ClinicaVet.App.Persistencia
+@model ClinicaVet.App.Frontend.Pages.ListaAgendaModel
+
+@{
+}
+<h1> Gestionar Agendas </h1>
+<a class="btn btn-primary table-btn" asp-page="./AdicionAgenda">Añadir Agenda</a>
+<table class="table table-dark">
+<tr>
+     <th>Dueño</th>
+     <th>Veterinario</th>
+     <th>Descripcion</th>
+     <th>Consultorio</th>
+     <th>Dia</th>
+     <th>Hora</th>
+</tr>
+
+@foreach (var agenda in @Model.agendas){ 
+<tr>
+     <td>@agenda.dueño.nombre</td>
+     <td>@agenda.veterinario.nombre</td>
+     <td>@agenda.descripcion</td>
+     <td>@agenda.sala</td>
+     <td>@agenda.hora</td>
+     <td>@agenda.dia</td>
+</tr>
+   
+    }
+
+
+
+</table>
