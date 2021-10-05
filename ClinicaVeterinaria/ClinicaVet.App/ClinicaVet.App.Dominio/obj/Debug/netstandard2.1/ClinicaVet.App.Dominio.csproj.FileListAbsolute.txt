@@ -1,45 +1,9 @@
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.csprojAssemblyReference.cache
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.AssemblyInfo.cs
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.deps.json
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.dll
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.pdb
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.dll
-D:/Leo/mintic/Ciclo 3/Desarrollo de software/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.pdb
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.csprojAssemblyReference.cache
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.AssemblyInfo.cs
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.dll
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/obj/Debug/netstandard2.1/ClinicaVet.App.Dominio.pdb
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.deps.json
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.dll
-/Users/Nicolas/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVeterinaria/ClinicaVet.App/ClinicaVet.App.Dominio/bin/Debug/netstandard2.1/ClinicaVet.App.Dominio.pdb
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.deps.json
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csprojAssemblyReference.cache
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfo.cs
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
-C:\Users\agos1\OneDrive\Escritorio\Mision tic 2022\FP\ciclo 3\Trabajo final\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.deps.json
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csprojAssemblyReference.cache
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfo.cs
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
-C:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.deps.json
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csprojAssemblyReference.cache
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfo.cs
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
-C:\Users\LENOVO\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.deps.json
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\bin\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csprojAssemblyReference.cache
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfoInputs.cache
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.AssemblyInfo.cs
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.csproj.CoreCompileInputs.cache
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.dll
+D:\ClinicaVeterinaria\ClinicaVeterinaria\ClinicaVet.App\ClinicaVet.App.Dominio\obj\Debug\netstandard2.1\ClinicaVet.App.Dominio.pdb
