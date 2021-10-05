@@ -1,4 +1,15 @@
 ﻿@page
 @model ClinicaVet.App.Frontend.Pages.Menu.DetalleAuxiliaresModel
+@using ClinicaVet.App.Dominio;
 @{
 }
+<h1>Detalle del auxiliar @Model.auxiliar.nombre</h1>
+<ul>
+    <li>Cedula: @Model.auxiliar.cedula</li>
+    <li>Nombre: @Model.auxiliar.nombre</li>
+    <li>Apellido: @Model.auxiliar.apellido</li>
+    <li>Celular: @Model.auxiliar.celular</li>
+    <li>Dirección: @Model.auxiliar.direccion</li>
+    <li>Ciudad: @Model.auxiliar.ciudad</li>
+    <li>Correl Electronico: @Model.auxiliar.email</li>
+</ul>
