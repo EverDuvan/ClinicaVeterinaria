@@ -11,5 +11,4 @@ namespace ClinicaVet.App.Persistencia
         void DeleteConsulta(int Id);
         Consulta GetConsulta(int Id);
     }
-
 }
