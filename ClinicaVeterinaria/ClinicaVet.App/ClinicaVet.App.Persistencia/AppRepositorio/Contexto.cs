@@ -17,7 +17,6 @@ namespace ClinicaVet.App.Persistencia
         public DbSet<Receta> Recetas { get; set; }
         public DbSet<HistoriaClinica> HistoriaClinicas { get; set; }
 
-
          protected override void OnConfiguring(DbContextOptionsBuilder options)
          {
             if (!options.IsConfigured) { options.UseSqlServer ("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = ClinicaVet");
@@ -28,8 +27,6 @@ namespace ClinicaVet.App.Persistencia
              builder.Entity<Usuario>()
              .HasIndex(u => u.cedula)
              .IsUnique();
-             
          }
     }
-    
 }
