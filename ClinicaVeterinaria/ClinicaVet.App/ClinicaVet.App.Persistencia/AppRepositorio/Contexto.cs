@@ -14,7 +14,6 @@ namespace ClinicaVet.App.Persistencia
         public DbSet<Agenda> Agendas { get; set; }
         public DbSet<Mascota> Mascotas { get; set; }
         public DbSet<Consulta> Consultas { get; set; }
-        public DbSet<Receta> Recetas { get; set; }
         public DbSet<HistoriaClinica> HistoriaClinicas { get; set; }
 
          protected override void OnConfiguring(DbContextOptionsBuilder options)

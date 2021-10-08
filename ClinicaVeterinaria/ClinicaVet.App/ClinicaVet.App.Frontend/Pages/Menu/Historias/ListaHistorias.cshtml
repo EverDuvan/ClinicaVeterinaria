@@ -1,0 +1,19 @@
+﻿@page
+@model ClinicaVet.App.Frontend.Pages.ListaHistoriasModel
+@{
+}
+<h1>Historias</h1>
+<table class="table striped-table">
+    <tr>
+        <th>Mascota</th>
+        <th>Anotaciones</th>
+        <td>historia Clinica</td>
+    </tr>
+    @foreach(var historia in Model.historias){
+        <tr>
+            <td>@historia.consultas[0].mascota.nombre</td>
+            <td>@historia.resumen</td>
+            <td><a asp-page="./DetallelHistorias" asp-route-idHistoria="@historia.Id">Detalle Consultas</a></td>
+        </tr>
+    }
+</table>

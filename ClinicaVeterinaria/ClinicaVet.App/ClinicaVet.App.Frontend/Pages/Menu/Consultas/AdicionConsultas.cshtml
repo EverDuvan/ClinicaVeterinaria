@@ -3,3 +3,40 @@
 @using ClinicaVet.App.Dominio
 @{
 }
+<h1>Nueva Consulta</h1>
+<br>
+<form method="post" class="mt-3">
+    <div class="form-group">
+        <label class="form-control" asp-for="IdMascota">Mascota</label>
+        <select class="form-control" asp-for="IdMascota" asp-items="Model.mascotas"></select>
+    </div>
+    <div class="form-group">
+        <label class="form-control" asp-for="cedulaVeterinario">Veterinario</label>
+        <select class="form-control" asp-for="cedulaVeterinario" asp-items="Model.veterinario"></select>
+    </div>
+    <div class="form-group">
+        <label class="form-control" asp-for="cedulaAuxiliar">Auxiliar</label>
+        <select class="form-control" asp-for="cedulaAuxiliar" asp-items="Model.auxiliares"></select>
+    </div>
+    <div class="form-group">
+        <label class="form-control" asp-for="receta.medicamentos">Medicamento</label>
+        <div class="col-sm-10">
+            <select asp-for="receta.medicamentos" asp-items="Html.GetEnumSelectList<receta.medicamentos>()"></select>   
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="form-control" asp-for="receta.dosis">Dosis Medicamento</label>
+        <input asp-for="receta.dosis" class="form-control">
+    </div>
+    <div class="form-group">
+        <label class="form-control" asp-for="consulta.FechaConsulta">Fecha de Consulta</label>
+        <input class="form-control" asp-for="consulta.FechaConsulta" value="@DateTime.Now.ToString()">
+        <span class="text-danger" asp-validation-for="consulta.FechaConsulta"></span>
+    </div>
+    <div class="form-group">
+        <label class="form-control" asp-for="consulta.anotacion">Anotaciones de la consulta</label>
+        <textarea class="form-control" asp-for="consulta.anotacion" row="4"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit">Agregar Consulta</button>
+    <a href="./ListAnotacion" class="btn btn-primary">Cancelar</a>
+</form>

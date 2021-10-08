@@ -12,7 +12,6 @@ namespace ClinicaVet.App.Frontend.Pages
 
     public class DetalleClienteModel : PageModel
     {
-
         private readonly IRepositorioDueño repositorioDueño;
 
         public Dueño dueño { get; set; }
