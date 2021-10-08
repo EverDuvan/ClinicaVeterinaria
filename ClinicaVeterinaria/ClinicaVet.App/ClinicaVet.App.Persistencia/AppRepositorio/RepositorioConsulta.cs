@@ -34,6 +34,7 @@ namespace ClinicaVet.App.Persistencia
         {
             Consulta consultaEncontrada = _contexto.Consultas.FirstOrDefault(c => c.Id == consulta.Id);
             if(consultaEncontrada != null){
+                consultaEncontrada.dueño = consulta.dueño;
                 consultaEncontrada.mascota = consulta.mascota;
                 consultaEncontrada.auxiliar = consulta.auxiliar;
                 consultaEncontrada.veterinario = consulta.veterinario;

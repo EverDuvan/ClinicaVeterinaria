@@ -7,7 +7,7 @@ using ClinicaVet.App.Persistencia;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ClinicaVet.App.Frontend.Pages.Menu
+namespace ClinicaVet.App.Frontend.Pages
 {
     public class DetalleMascotaModel : PageModel
     {

@@ -1,4 +1,6 @@
 ﻿@page
+@using ClinicaVet.App.Dominio
+@using ClinicaVet.App.Persistencia
 @model ClinicaVet.App.Frontend.Pages.ListaConsultasModel
 @{
 }
@@ -21,10 +23,7 @@
         <td>@consulta.anotacion</td>
         <td>@consulta.FechaConsulta</td>
         
-        <td><a class="btn btn-primary table-btn" asp-page="./DetalleConsultas" asp-route-cedula="@consulta.Id">Detalle</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./EditarConsultas" asp-route-cedula="@consulta.Id">Editar</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./EliminarConsultas" asp-route-cedula="@consulta.Id">Eliminar</a>
-        <br>
+       
     </tr>
 }
 </table>

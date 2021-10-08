@@ -24,6 +24,10 @@ namespace ClinicaVet.App.Frontend.Pages
         public IEnumerable<SelectListItem> auxiliares { get; set;}
         public Consulta consulta { get; set; }
         public Receta receta { get; set; }
+        public int cedulaVeterinario { get; set; }
+        public int cedulaDueño { get; set; }
+        public int cedulaAuxiliar { get; set; }
+        public int IdMascota { get; set; }
 
         public AdicionConsultasModel(IRepositorioConsulta repositorioConsulta, IRepositorioAuxiliar repositorioAuxiliar, IRepositorioVeterinario repositorioVeterinario, RepositorioHistoriaClinica repositorioHistoriaClinica, IRepositorioMascota repositorioMascota)
         {
@@ -70,7 +74,8 @@ namespace ClinicaVet.App.Frontend.Pages
                     veterinario = veterinario,
                     FechaConsulta = consulta.FechaConsulta,
                     anotacion = consulta.anotacion,
-                    receta = receta
+                    receta = receta,
+                    medicamentos = receta.medicamentos
                 };
 
                 HistoriaClinica historia = repositorioHistoriaClinica.historiaPorMascota(mascota);
@@ -80,7 +85,7 @@ namespace ClinicaVet.App.Frontend.Pages
                 */
                 if(historia == null){
                     historia = new HistoriaClinica(){
-                        resumen = " Nombre Mascora " + mascota.nombre +"Fecha: "+ DateTime.Now,
+                        resumen = " Nombre Mascota " + mascota.nombre +"Fecha: "+ DateTime.Now,
                         consultas = new List<Consulta>{consultaNueva}
                     };
                     repositorioHistoriaClinica.addHistoria(historia);

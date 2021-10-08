@@ -19,12 +19,12 @@
     </tr>
     @foreach(var consulta in @Model.Historia.consultas){
         <tr>
-            <td>@consultas.cliente</td>
-            <td>@consultas.veterinario</td>
-            <td>@consultas.auxiliar</td>
-            <td>@consultas.receta.medicamentos</td>
-            <td>@consultas.receta.dosis</td>
-            <td>@consultas.FechaConsulta</td>
+            <td>@consulta.dueño</td>
+            <td>@consulta.veterinario</td>
+            <td>@consulta.auxiliar</td>
+            <td>@consulta.receta.medicamentos</td>
+            <td>@consulta.receta.dosis</td>
+            <td>@consulta.FechaConsulta</td>
         </tr>
     }
 </table>
