@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ClinicaVet.App.Persistencia;
+using ClinicaVet.App.Persistencia.AppRepositorio;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,7 @@ namespace ClinicaVet.App.Frontend
             services.AddSingleton<IRepositorioConsulta>(new RepositorioConsulta(_contexto));
             services.AddSingleton<IRepositorioVeterinario>(new RepositorioVeterinario(_contexto));
             services.AddSingleton<IRepositorioAgenda>(new RepositorioAgenda(_contexto));
+            services.AddSingleton<IRepositorioMascota>(new RepositorioMascota(_contexto));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,4 +1,12 @@
 ﻿@page
 @model ClinicaVet.App.Frontend.Pages.Menu.EliminarMascotaModel
+@using ClinicaVet.App.Dominio;
 @{
 }
+<h1>Esta seguro de eliminar esta mascota</h1>
+<p>Se va ha eliminar la mascota @Model.mascota.nombre</p>
+<form method="post" class="mt-3">
+    <input hidden asp-for="mascota.Id"/>
+    <button type="submit" class="btn btn-primary">Eliminar</button>
+    <a asp-page="./ListaMascotas" class="btn btn-primary">Cancelar</a>
+</form>

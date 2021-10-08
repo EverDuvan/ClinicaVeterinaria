@@ -1,4 +1,13 @@
 ﻿@page
 @model ClinicaVet.App.Frontend.Pages.Menu.DetalleMascotaModel
+@using ClinicaVet.App.Dominio;
 @{
 }
+<h1>Detalle de la mascota @Model.mascota.nombre</h1>
+<ul>
+    <li>Dueño: @Model.mascota.dueño</li>
+    <li>Nombre: @Model.mascota.nombre</li>
+    <li>FechaNacimiento: @Model.mascota.fechaNacimiento</li>
+    <li>Descripcion: @Model.mascota.descripcion</li>
+    <li>TipoMascota: @Model.mascota.tipoMascota</li>
+</ul>
