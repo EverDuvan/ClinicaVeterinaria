@@ -1,0 +1,30 @@
+﻿@page
+@model ClinicaVet.App.Frontend.Pages.DetalleHistoriasModel
+@{
+}
+<h1>Detalle historia Clinica</h1>
+<br>
+<h2>La historia de: @Model.Historia.consultas[0].mascota.nombre</h2>
+<br>
+<p>Este es el listado de las consultas que ha tenido la mascota</p>
+<table class="table">
+    <tr>
+        <th>Cliente</th>
+        <th>Veterinario</th>
+        <th>Auxiliar</th>
+        <th>Medicamento</th>
+        <th>Dosis</th>
+        <th>Anotación</th>
+        <th>Fecha</th>
+    </tr>
+    @foreach(var consulta in @Model.Historia.consultas){
+        <tr>
+            <td>@consultas.cliente</td>
+            <td>@consultas.veterinario</td>
+            <td>@consultas.auxiliar</td>
+            <td>@consultas.receta.medicamentos</td>
+            <td>@consultas.receta.dosis</td>
+            <td>@consultas.FechaConsulta</td>
+        </tr>
+    }
+</table>

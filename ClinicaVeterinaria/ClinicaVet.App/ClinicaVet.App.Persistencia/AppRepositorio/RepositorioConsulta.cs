@@ -2,17 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ClinicaVet.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClinicaVet.App.Persistencia
 {
     public class RepositorioConsulta : IRepositorioConsulta
     {
-        private readonly Contexto _contexto; 
+        private readonly Contexto _contexto;
         //private readonly Security security; 
 
         public RepositorioConsulta(Contexto contexto){
             this._contexto = contexto;
-            //security = new Security();
         }
         public Consulta AddConsulta(Consulta consulta)
         {
@@ -47,12 +47,12 @@ namespace ClinicaVet.App.Persistencia
 
         public IEnumerable<Consulta> GetAllConsultas()
         {
-            return _contexto.Consultas;
+            return _contexto.Consultas.Include("mascota").Include("veterinario").Include("auxiliar");
         }
 
         public Consulta GetConsulta(int Id)
         {
-            Consulta consultaEncontrada = _contexto.Consultas.FirstOrDefault(c => c.Id == Id);
+            Consulta consultaEncontrada = _contexto.Consultas.Include("mascota").Include("veterinario").Include("auxiliar").FirstOrDefault(c => c.Id == Id);
             return consultaEncontrada;
         }
     }

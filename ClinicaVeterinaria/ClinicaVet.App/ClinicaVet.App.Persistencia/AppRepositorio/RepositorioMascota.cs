@@ -31,8 +31,7 @@ namespace ClinicaVet.App.Persistencia.AppRepositorio
             if(MascotaEncontrado != null){
                 _contexto.Mascotas.Remove(MascotaEncontrado);
                 _contexto.SaveChanges();
-        }
-   
+            }
         }
 
         public Mascota EditMascotas(Mascota mascota)
@@ -40,7 +39,6 @@ namespace ClinicaVet.App.Persistencia.AppRepositorio
            Mascota MascotaEncontrado =_contexto.Mascotas.FirstOrDefault(d => d.Id == mascota.Id);
 
             if(MascotaEncontrado != null){
-
                 MascotaEncontrado.dueño = mascota.dueño;
                 MascotaEncontrado.nombre = mascota.nombre;
                 MascotaEncontrado.fechaNacimiento = mascota.fechaNacimiento;
@@ -60,7 +58,6 @@ namespace ClinicaVet.App.Persistencia.AppRepositorio
         public Mascota GetMascotas(int Id)
         {
             Mascota MascotaEncontrado = _contexto.Mascotas.FirstOrDefault(d => d.Id == Id);
-        
            return MascotaEncontrado;
         }
     }
