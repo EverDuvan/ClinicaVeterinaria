@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ClinicaVet.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClinicaVet.App.Persistencia.AppRepositorio
 {
     public class RepositorioMascota : IRepositorioMascota
     {
 
-        private readonly Contexto _contexto; 
-        
+        private readonly Contexto _contexto;
 
         public RepositorioMascota(Contexto contexto){
             this._contexto = contexto;
@@ -36,18 +36,18 @@ namespace ClinicaVet.App.Persistencia.AppRepositorio
 
         public Mascota EditMascotas(Mascota mascota)
         {
-           Mascota MascotaEncontrado =_contexto.Mascotas.FirstOrDefault(d => d.Id == mascota.Id);
+           Mascota MascotaAEditar =_contexto.Mascotas.FirstOrDefault(m => m.Id == mascota.Id);
 
-            if(MascotaEncontrado != null){
-                MascotaEncontrado.dueño = mascota.dueño;
-                MascotaEncontrado.nombre = mascota.nombre;
-                MascotaEncontrado.fechaNacimiento = mascota.fechaNacimiento;
-                MascotaEncontrado.descripcion = mascota.descripcion;
-                MascotaEncontrado.tipoMascota = mascota.tipoMascota;
+            if(MascotaAEditar != null){
+                MascotaAEditar.dueño = mascota.dueño;
+                MascotaAEditar.nombre = mascota.nombre;
+                MascotaAEditar.fechaNacimiento = mascota.fechaNacimiento;
+                MascotaAEditar.descripcion = mascota.descripcion;
+               MascotaAEditar.tipoMascota = mascota.tipoMascota;
 
                 _contexto.SaveChanges();
             }
-            return MascotaEncontrado;
+            return MascotaAEditar;
         }
 
         public IEnumerable<Mascota> GetAllMascotas()
@@ -57,7 +57,7 @@ namespace ClinicaVet.App.Persistencia.AppRepositorio
 
         public Mascota GetMascotas(int Id)
         {
-            Mascota MascotaEncontrado = _contexto.Mascotas.FirstOrDefault(d => d.Id == Id);
+            Mascota MascotaEncontrado = _contexto.Mascotas.FirstOrDefault(m => m.Id == Id);
            return MascotaEncontrado;
         }
     }

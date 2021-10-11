@@ -14,7 +14,7 @@
     <th scope="col">Descripcion</th>
     <th scope="col">TipoMascota</th>
 </tr>
-@foreach(var mascota in Model.mascota){
+@foreach(var mascota in Model.mascotas){
     <tr>
         <td>@mascota.Id</td>
         <td>@mascota.dueño</td>
@@ -23,9 +23,9 @@
         <td>@mascota.descripcion</td>
         <td>@mascota.tipoMascota</td>
         
-        <td><a class="btn btn-primary table-btn" asp-page="./Detallemascota" asp-route-cedula="@mascota.Id">Detalle</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./Editarmascota" asp-route-cedula="@mascota.Id">Editar</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./Eliminarmascota" asp-route-cedula="@mascota.Id">Eliminar</a><br>
+        <td><a class="btn btn-primary table-btn" asp-page="./DetalleMascota" asp-route-cedula="@mascota.Id">Detalle</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./EditarMascota" asp-route-cedula="@mascota.Id">Editar</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./EliminarMascota" asp-route-cedula="@mascota.Id">Eliminar</a><br>
     </tr>
 }    
 </table>

@@ -12,13 +12,13 @@ namespace ClinicaVet.App.Frontend.Pages.Menu
     public class ListaMascotasModel : PageModel
     {
         public readonly IRepositorioMascota repositorioMascota;
-        public  IEnumerable<Mascota> mascota;
+        public  IEnumerable<Mascota> mascotas;
         public ListaMascotasModel(IRepositorioMascota repositorioMascota){
             this.repositorioMascota = repositorioMascota;
         }
         public void OnGet()
         {
-            mascota = repositorioMascota.GetAllMascotas();
+            mascotas = repositorioMascota.GetAllMascotas();
         }
     }
 }
