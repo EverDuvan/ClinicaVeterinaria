@@ -19,9 +19,9 @@ namespace ClinicaVet.App.Frontend.Pages.Menu
             this.repositorioMascota = repositorioMascota;
         }
         
-        public void OnGet(int Id)
+        public void OnGet(int mascotaId)
         {
-            mascota = repositorioMascota.GetMascotas(Id);
+            mascota = repositorioMascota.GetMascotas(mascotaId);
         }
         public IActionResult OnPost(Mascota mascota)
         {

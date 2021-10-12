@@ -43,7 +43,7 @@ namespace ClinicaVet.App.Persistencia.AppRepositorio
                 MascotaAEditar.nombre = mascota.nombre;
                 MascotaAEditar.fechaNacimiento = mascota.fechaNacimiento;
                 MascotaAEditar.descripcion = mascota.descripcion;
-               MascotaAEditar.tipoMascota = mascota.tipoMascota;
+                MascotaAEditar.tipoMascota = mascota.tipoMascota;
 
                 _contexto.SaveChanges();
             }
@@ -57,8 +57,9 @@ namespace ClinicaVet.App.Persistencia.AppRepositorio
 
         public Mascota GetMascotas(int Id)
         {
-            Mascota MascotaEncontrado = _contexto.Mascotas.FirstOrDefault(m => m.Id == Id);
+           Mascota MascotaEncontrado = _contexto.Mascotas.FirstOrDefault(m => m.Id == Id);
            return MascotaEncontrado;
+           
         }
     }
 }

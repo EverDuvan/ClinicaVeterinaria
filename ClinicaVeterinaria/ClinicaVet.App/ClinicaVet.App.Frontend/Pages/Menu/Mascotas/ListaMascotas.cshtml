@@ -23,9 +23,9 @@
         <td>@mascota.descripcion</td>
         <td>@mascota.tipoMascota</td>
         
-        <td><a class="btn btn-primary table-btn" asp-page="./DetalleMascota" asp-route-cedula="@mascota.Id">Detalle</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./EditarMascota" asp-route-cedula="@mascota.Id">Editar</a><br>
-        <a class="btn btn-primary table-btn" asp-page="./EliminarMascota" asp-route-cedula="@mascota.Id">Eliminar</a><br>
+        <td><a class="btn btn-primary table-btn" asp-page="./DetalleMascota" asp-route-mascotaId="@mascota.Id">Detalle</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./EditarMascota" asp-route-mascotaId="@mascota.Id">Editar</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./EliminarMascota" asp-route-mascotaId="@mascota.Id">Eliminar</a><br>
     </tr>
 }    
 </table>

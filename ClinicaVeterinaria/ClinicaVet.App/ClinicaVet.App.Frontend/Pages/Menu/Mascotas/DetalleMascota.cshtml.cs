@@ -12,14 +12,18 @@ namespace ClinicaVet.App.Frontend.Pages
     public class DetalleMascotaModel : PageModel
     {
         private readonly IRepositorioMascota repositorioMascota;
+        private readonly IRepositorioDueño repositorioDueño;
         public Mascota mascota { get; set;}
-        public DetalleMascotaModel(IRepositorioMascota repositorioMascota){
+        public Dueño dueño { get; set;}
+        public DetalleMascotaModel(IRepositorioMascota repositorioMascota, IRepositorioDueño repositorioDueño){
             this.repositorioMascota = repositorioMascota;
+            this.repositorioDueño = repositorioDueño;
         }
 
-        public void OnGet(int Id)
+        public void OnGet(int mascotaId)
         {
-            mascota = repositorioMascota.GetMascotas(Id);
+            
+            mascota = repositorioMascota.GetMascotas(mascotaId);
         }
     }
 }

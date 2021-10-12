@@ -17,13 +17,13 @@ namespace ClinicaVet.App.Frontend.Pages.Menu
         {
             this.repositorioMascota = repositorioMascota;
         }
-        public void OnGet(int Id)
+        public void OnGet(int mascotaId)
         {
-            mascota = repositorioMascota.GetMascotas(Id);
+            mascota = repositorioMascota.GetMascotas(mascotaId);
         }
-        public IActionResult OnPost(int Id){
+        public IActionResult OnPost(int mascotaId){
             
-            repositorioMascota.DeleteMascotas(Id);
+            repositorioMascota.DeleteMascotas(mascotaId);
             return RedirectToPage("./ListaMascotas");
         }
     }
