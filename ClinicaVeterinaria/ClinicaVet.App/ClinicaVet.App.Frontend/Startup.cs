@@ -29,15 +29,18 @@ namespace ClinicaVet.App.Frontend
         {
             services.AddRazorPages(
                 options => {
-                    options.Conventions.AuthorizeFolder("/Menu/Agendas");
+                    options.Conventions.AuthorizeFolder("/Menu");
+                    /*
                     options.Conventions.AuthorizeFolder("/Menu/Auxiliares");
                     options.Conventions.AuthorizeFolder("/Menu/Clientes");
                     options.Conventions.AuthorizeFolder("/Menu/Consultas");
                     options.Conventions.AuthorizeFolder("/Menu/Historias");
                     options.Conventions.AuthorizeFolder("/Menu/Mascotas");
                     options.Conventions.AuthorizeFolder("/Menu/Veterinarios");
-                    //options.Conventions.AuthorizePage("/Index");
-                    //options.Conventions.AllowAnonymousToPage("/Privacy");
+                    */
+
+                    options.Conventions.AuthorizePage("/Index");
+                    options.Conventions.AllowAnonymousToPage("/Privacy");
                 }
             );
             Contexto _contexto = new Contexto();
@@ -69,6 +72,7 @@ namespace ClinicaVet.App.Frontend
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

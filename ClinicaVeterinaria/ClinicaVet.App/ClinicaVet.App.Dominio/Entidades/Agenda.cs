@@ -12,7 +12,7 @@ namespace ClinicaVet.App.Dominio
         public int id{get;set;}
         public Dueño dueño { get; set; }
         public Veterinario veterinario { get; set; }
-        [Required(ErrorMessage = "El dia  es obligatorio."),DataType(DataType.Date),Range(typeof(DateTime),"1/1/2021","31/12/2025", ErrorMessage = "El dia es obligatorio")]
+        [Required(ErrorMessage = "El dia  es obligatorio."),DataType(DataType.Date),Range(typeof(DateTime),"1/1/2021","1/1/2026", ErrorMessage = "El dia es obligatorio")]
        
         public DateTime dia{ get; set;}  
         [Required(ErrorMessage="La hora es obligatoria."),DataType(DataType.Time)]

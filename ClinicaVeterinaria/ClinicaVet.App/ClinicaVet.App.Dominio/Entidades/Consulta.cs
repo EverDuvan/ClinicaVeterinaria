@@ -15,7 +15,7 @@ namespace ClinicaVet.App.Dominio
         public Receta receta { get; set; }
         public Medicamentos medicamentos { get; set; }
         public string anotacion { get; set; }
-        [Required(ErrorMessage = "La fecha es obligatoria."),DataType(DataType.DateTime),Range(typeof(DateTime), "1/1/2021", "31/12/2025",ErrorMessage = "El valor {0} debe estar {1} y {2}")]
+        [Required(ErrorMessage = "La fecha es obligatoria."),DataType(DataType.DateTime),Range(typeof(DateTime), "1/1/2021", "1/1/2026",ErrorMessage = "El valor {0} debe estar {1} y {2}")]
         public DateTime FechaConsulta { get; set; }
     }
 }

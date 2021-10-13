@@ -15,5 +15,21 @@
     <th scope="col">Dirección</th>
     <th scope="col">Ciudad</th>
 </tr>
+@foreach(var veterinario in Model.veterinarios){
+    <tr>
+        <td>@veterinario.Id</td>
+        <td>@veterinario.nombre</td>
+        <td>@veterinario.apellido</td>
+        <td>@veterinario.cedula</td>
+        <td>@veterinario.celular</td>
+        <td>@veterinario.direccion</td>
+        <td>@veterinario.ciudad</td>
+        <td>@veterinario.email</td>
+        
+        <td><a class="btn btn-primary table-btn" asp-page="./Detalleveterinario" asp-route-cedula="@veterinario.cedula">Detalle</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./Editarveterinario" asp-route-cedula="@veterinario.cedula">Editar</a><br>
+        <a class="btn btn-primary table-btn" asp-page="./Eliminarveterinario" asp-route-cedula="@veterinario.cedula">Eliminar</a><br>
+    </tr>
+}    
 </table>
 <img class="img-responsive img-rounded" src="~/imagenes/veterinario.jpg" alt="imagen veterinario">

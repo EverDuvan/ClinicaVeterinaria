@@ -29,7 +29,7 @@ namespace ClinicaVet.App.Frontend.Pages
         public int cedulaAuxiliar { get; set; }
         public int IdMascota { get; set; }
 
-        public AdicionConsultasModel(IRepositorioConsulta repositorioConsulta, IRepositorioAuxiliar repositorioAuxiliar, IRepositorioVeterinario repositorioVeterinario, RepositorioHistoriaClinica repositorioHistoriaClinica, IRepositorioMascota repositorioMascota)
+        public AdicionConsultasModel(IRepositorioConsulta repositorioConsulta, IRepositorioAuxiliar repositorioAuxiliar, IRepositorioVeterinario repositorioVeterinario, IRepositorioHistoriaClinica repositorioHistoriaClinica, IRepositorioMascota repositorioMascota)
         {
             this.repositorioConsulta = repositorioConsulta;
             this.repositorioAuxiliar = repositorioAuxiliar;
