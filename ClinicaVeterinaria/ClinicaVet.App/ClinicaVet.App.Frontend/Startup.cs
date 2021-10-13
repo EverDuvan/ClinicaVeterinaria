@@ -27,7 +27,19 @@ namespace ClinicaVet.App.Frontend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddRazorPages(
+                options => {
+                    options.Conventions.AuthorizeFolder("/Menu/Agendas");
+                    options.Conventions.AuthorizeFolder("/Menu/Auxiliares");
+                    options.Conventions.AuthorizeFolder("/Menu/Clientes");
+                    options.Conventions.AuthorizeFolder("/Menu/Consultas");
+                    options.Conventions.AuthorizeFolder("/Menu/Historias");
+                    options.Conventions.AuthorizeFolder("/Menu/Mascotas");
+                    options.Conventions.AuthorizeFolder("/Menu/Veterinarios");
+                    //options.Conventions.AuthorizePage("/Index");
+                    //options.Conventions.AllowAnonymousToPage("/Privacy");
+                }
+            );
             Contexto _contexto = new Contexto();
             services.AddSingleton<IRepositorioDueño>(new RepositorioDueño(_contexto));
             services.AddSingleton<IRepositorioAuxiliar>(new RepositorioAuxiliar(_contexto));
@@ -36,6 +48,7 @@ namespace ClinicaVet.App.Frontend
             services.AddSingleton<IRepositorioAgenda>(new RepositorioAgenda(_contexto));
             services.AddSingleton<IRepositorioMascota>(new RepositorioMascota(_contexto));
             services.AddSingleton<IRepositorioHistoriaClinica>(new RepositorioHistoriaClinica(_contexto));
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,6 +74,10 @@ namespace ClinicaVet.App.Frontend
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Conference}/{action=Index}/{id?}"
+                );
                 endpoints.MapRazorPages();
             });
         }
